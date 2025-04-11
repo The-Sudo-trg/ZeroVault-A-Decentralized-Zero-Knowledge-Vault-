@@ -20,56 +20,7 @@ ZeroVault is a decentralized application (dApp) that uses Zero-Knowledge Proofs 
 - **ZKP Library**: SnarkJS / Circom / zk-SNARKs
 
 ## Project Structure
-zerovault/
-├── README.md
-├── .github/
-│   └── workflows/
-│       ├── test.yml
-│       └── deploy.yml
-├── packages/
-│   ├── contracts/                # Solidity smart contracts
-│   │   ├── src/
-│   │   │   ├── ZeroVault.sol     # Main contract
-│   │   │   ├── ZKVerifier.sol    # ZK verification contract
-│   │   │   └── interfaces/
-│   │   ├── test/
-│   │   ├── script/
-│   │   ├── foundry.toml
-│   │   └── package.json
-│   │
-│   ├── frontend/                 # React frontend
-│   │   ├── public/
-│   │   ├── src/
-│   │   │   ├── components/
-│   │   │   │   ├── layout/
-│   │   │   │   ├── vault/
-│   │   │   │   └── auth/
-│   │   │   ├── hooks/
-│   │   │   ├── pages/
-│   │   │   ├── utils/
-│   │   │   ├── context/
-│   │   │   └── App.tsx
-│   │   ├── tailwind.config.js
-│   │   └── package.json
-│   │
-│   ├── circuits/                 # ZK circuits
-│   │   ├── src/
-│   │   │   ├── identity.circom
-│   │   │   ├── ageProof.circom
-│   │   │   └── login.circom
-│   │   ├── scripts/
-│   │   │   ├── compile.js
-│   │   │   └── generate_witness.js
-│   │   └── package.json
-│   │
-│   └── common/                   # Shared types and utilities
-│       ├── src/
-│       │   ├── types/
-│       │   └── constants/
-│       └── package.json
-│
-├── docker-compose.yml
-└── package.json
+
 
 ## Getting Started
 
