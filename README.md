@@ -23,6 +23,49 @@ ZeroVault is a decentralized application (dApp) that uses Zero-Knowledge Proofs 
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f8fbfd;
+      color: #1f2937;
+      margin: 2rem;
+      line-height: 1.6;
+    }
+    h1, h2, h3 {
+      color: #0f172a;
+    }
+    h1 {
+      border-bottom: 2px solid #60a5fa;
+      padding-bottom: 0.3rem;
+    }
+    code, pre {
+      background-color: #e5f0fb;
+      padding: 0.2rem 0.5rem;
+      border-radius: 6px;
+      font-size: 0.95rem;
+    }
+    pre {
+      padding: 1rem;
+      overflow-x: auto;
+    }
+    ul {
+      margin-left: 1.5rem;
+    }
+    .section {
+      margin-top: 2rem;
+    }
+    .highlight {
+      background: #dbeafe;
+      padding: 0.4rem;
+      border-left: 4px solid #3b82f6;
+      margin: 1rem 0;
+    }
+    .footer {
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #6b7280;
+    }
+  </style>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>ZeroVault README</title>
