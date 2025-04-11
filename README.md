@@ -20,3 +20,19 @@ ZeroVault is a decentralized application (dApp) that uses Zero-Knowledge Proofs 
 - **ZKP Library**: SnarkJS / Circom / zk-SNARKs
 
 ## Project Structure
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js v16+
+- Yarn or npm
+- Foundry (for smart contract development)
+- Circom (for ZK circuit development)
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/zerovault.git
+   cd zerovault
