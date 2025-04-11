@@ -111,31 +111,29 @@ zerovault/
 ### Installation
 
 1. Clone the repository:
-   ```bash
+   
    git clone https://github.com/yourusername/zerovault.git
    cd zerovault
-```
+
 
 2. Install dependencies:
 
-```shellscript
+
 yarn install
-```
 
 
 3. Set up environment variables:
 
-```shellscript
+
 cp .env.example .env
 # Edit .env with your configuration
-```
 
 
 4. Build the project:
 
-```shellscript
+
 yarn build
-```
+
 
 
 
